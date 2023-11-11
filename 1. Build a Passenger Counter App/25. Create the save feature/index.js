@@ -15,7 +15,6 @@ function save() {
     saveEl.textContent += countStr
     countEl.textContent = 0
     count = 0
-    // NB: Make sure to not delete the existing content of the paragraph
     console.log(count)
 }
 
