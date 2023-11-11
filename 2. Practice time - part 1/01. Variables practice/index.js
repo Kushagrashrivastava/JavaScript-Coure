@@ -1,7 +1,11 @@
-// Create two variables, firstName and lastName
+let myPoint = 0
 
-// Concatenate the two variables into a third variable called fullName
+function add3Point() {
+    myPoint = myPoint + 1
+    console.log(myPoint)
+}
 
-// Log fullName to the console
-
-
+add3Point()
+add3Point()
+add3Point()
+add3Point()
