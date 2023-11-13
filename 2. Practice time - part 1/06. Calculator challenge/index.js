@@ -7,7 +7,28 @@ document.getElementById("num2-el").textContent = num2
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
 // Render the result of the calculation in the paragraph with id="sum-el"
+let sumEl  = document.getElementById("sum-el")
 
+function add() {
+    console.log("adding")
+    let result = num1 + num2
+    sumEl.textContent = "Sum: " + result
+}
+function sub() {
+    console.log("subtact")
+    let result = num1 - num2
+    sumEl.textContent = "Sum: " + result
+}
+function divide() {
+    console.log("divide")
+    let result = num1 / num2
+    sumEl.textContent = "Sum: " + result
+}
+function multiply() {
+    console.log("multipply")
+    let result = num1 * num2
+    sumEl.textContent = "Sum: " + result
+}
 // E.g. if the user clicks on the "Plus" button, you should render
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
